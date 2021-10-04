@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+}
+
+.nav ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+}
+
+.nav_icons {
+    font-size: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav_links li {
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+
+.nav_logo img{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
