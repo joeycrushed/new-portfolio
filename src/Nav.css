@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 25px 35px;
+    padding: 25px 35px 0px 35px;
     height: 40px;
     background-color: transparent;
 
@@ -34,8 +34,9 @@
 
 .nav_links li {
     font-size: 18px;
+    font-weight:bold;
     color: white;
-    font-weight: bold;
+
     margin-right: 20px;
     align-items: center;
     

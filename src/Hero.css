@@ -1,45 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+.hero {
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+}
+
 
 .hero_container {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    margin: 120px 0px;
+    height: 100vh;
+    margin: 0px 100px;
 }
 
 .hero_info {
     color: white;
-    width: 595px;
-    height: 169px;
-    margin-top: 4.5rem;
+    width: 695px;
+    position: relative;
+    bottom: 55px;
+
 }
 
 .hero_info h3 {
     border-left: solid 6px #E34276;
     padding-left: 18px;
+    margin-bottom: 48px;
 }
 
 .hero_info p {
-    font-family: 'Romanesco', cursive;
-    font-size: 33px;
-    line-height: 38px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
     height: 169px;
     text-align: center;
-    margin: 0;
+    margin: 0px 17px;
+}
+
+.hero_image {
+    position: relative;
+    bottom: 45px;
 }
 
 .hero_image img {
     height: 508px;
     border-radius: 50px;
-    vertical-align: middle;
-
 }
 
 .hero_contact {
     display: flex;
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 27px;
 }
 
+/* button contact */
 .hero_contact :nth-child(1){
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
@@ -52,6 +64,7 @@
     cursor: pointer;
 }
 
+/* button CV */
 .hero_contact :nth-child(2) {
     font-family: 'Noto Sans', sans-serif;
     font-size: large;

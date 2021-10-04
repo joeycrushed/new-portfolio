@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import Nav from './Nav'
 import profile_pic from './assets/profile.jpeg'
 import { motion } from 'framer-motion'
 
@@ -46,14 +47,19 @@ const childVariants = {
   }
 
     return (
+      <>  
+        <Nav />
         <div className="hero_container">
             <motion.div className="hero_image" 
                 variants={imageVariants}
                 initial="hidden"
                 animate="visible"
                 >
+                <div>
                 <img src={profile_pic} alt="profile" />
+                </div>
             </motion.div>
+
             <motion.div className="hero_info"
                 variants={containerVariants}
                 initial="hidden"
@@ -63,14 +69,15 @@ const childVariants = {
                 <motion.p variants={childVariants}>I’m Joe. I’m a web developer originally from Yorkshire. After moving to London, 
                 I starting working in retail and worked my up to management. After many years in the 
                 retail industry, I decided to have a career change and retrain in web development. I’ve 
-                always had a keen interest in tech and design so fiigured it’d be a perfect fit. 
+                always had a keen interest in tech and design so figured it’d be a perfect fit. 
                 So here I am!</motion.p>
                 <motion.div variants={childVariants} className="hero_contact">
                     <button>Contact</button>
                     <button>Download My CV</button>
                 </motion.div>
             </motion.div>
-        </div>
+          </div>
+        </>
     )
 }
 
