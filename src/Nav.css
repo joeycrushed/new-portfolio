@@ -23,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     color: #E34276;
+    cursor: pointer;
 }
 
 .nav_links {

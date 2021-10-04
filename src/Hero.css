@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+.hero_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0px;
+}
+
+.hero_info {
+    color: white;
+    width: 595px;
+    height: 169px;
+    margin-top: 4.5rem;
+}
+
+.hero_info h3 {
+    border-left: solid 6px #E34276;
+    padding-left: 18px;
+}
+
+.hero_info p {
+    font-family: 'Romanesco', cursive;
+    font-size: 33px;
+    line-height: 38px;
+    height: 169px;
+    text-align: center;
+    margin: 0;
+}
+
+.hero_image img {
+    height: 508px;
+    border-radius: 50px;
+    vertical-align: middle;
+
+}
+
+.hero_contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.hero_contact :nth-child(1){
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: #E34276;
+    border-radius: 50px;
+    padding: 12px 48px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.hero_contact :nth-child(2) {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+    padding: 12px;
+    border-bottom: #E34276 solid 6px;
+    cursor: pointer;
+}

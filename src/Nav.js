@@ -58,9 +58,9 @@ const containerVariants = {
                 </motion.svg>
             </div>
             <motion.div className="nav_icons"
-                initial={{ x: "100vw" }}
-                animate={{ x: 0 , transition: { duration: 1, type: "spring"}}}
-                >
+                variants={containerVariants}
+                initial="hidden"
+                animate="visible">
                 <FaLinkedin />
                 <FaInstagram />
                 <FaGithub />
