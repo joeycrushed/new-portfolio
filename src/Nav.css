@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 35px;
+    height: 40px;
+    background-color: black;
 }
 
 .nav ul{
@@ -22,6 +24,12 @@
     color: white;
 }
 
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav_links li {
     font-size: 18px;
     color: white;
@@ -29,12 +37,14 @@
     align-items: center;
     
 }
+.nav_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .nav_logo img{
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 30px;
 }
 
 
