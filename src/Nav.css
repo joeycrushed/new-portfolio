@@ -24,6 +24,21 @@
     align-items: center;
     color: #E34276;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.nav_icons :nth-child(1):hover {
+    color:white;
+    transition: 0.5s ease;
+}
+
+.nav_icons :nth-child(2):hover {
+    color:white;
+    transition: 0.5s;
+}
+.nav_icons :nth-child(3):hover {
+    color:white;
+    transition: 0.5s;
 }
 
 .nav_links {
@@ -36,11 +51,11 @@
     font-size: 18px;
     font-weight:bold;
     color: white;
-
     margin-right: 20px;
     align-items: center;
-    
-}
+    overflow: hidden;
+  }
+  
 .nav_logo {
     display: flex;
     justify-content: space-between;
