@@ -63,9 +63,9 @@ const containerVariants = {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible">
-                <FaLinkedin />
-                <FaInstagram />
-                <FaGithub />
+                    <a href="https://www.linkedin.com/in/joesmith87" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                    <a href="https://instagram.com/joeycrushed" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                    <a href="https://github.com/joeycrushed" target="_blank" rel="noreferrer"><FaGithub /></a> 
             </motion.div>
     </div>
     )
