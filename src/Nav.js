@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { motion } from 'framer-motion'
@@ -42,8 +43,9 @@ const containerVariants = {
                 initial="hidden"
                 animate="visible">
                 <ul>
-                    <li>WORKS</li>
-                    <li>CONTACT</li>
+                    <Link to="/"><li>HOME</li></Link>
+                    <Link to="/projects"><li>PROJECTS</li></Link>
+                    <Link to="/contact"><li>CONTACT</li></Link>
                 </ul>
             </motion.div>
             <div className ="nav_logo">

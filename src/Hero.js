@@ -1,8 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import Nav from './Nav'
 import profile_pic from './assets/profile.jpeg'
 import { motion } from 'framer-motion'
+import Projects from './Projects'
 
 function Hero() {
 
@@ -48,7 +48,6 @@ const childVariants = {
 
     return (
       <>  
-        <Nav />
         <div className="hero_container">
             <motion.div className="hero_image" 
                 variants={imageVariants}
@@ -72,11 +71,12 @@ const childVariants = {
                 always had a keen interest in tech and design so figured it’d be a perfect fit. 
                 So here I am!</motion.p>
                 <motion.div variants={childVariants} className="hero_contact">
-                    <button>Contact</button>
-                    <button>Download My CV</button>
+                    <button className="contact_button">Contact</button>
+                    <button className="download_button">Download My CV</button>
                 </motion.div>
             </motion.div>
           </div>
+      
         </>
     )
 }

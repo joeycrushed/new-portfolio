@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
-.hero {
-    background-image: url(./assets/background.jpg);
-    background-size: cover;
-}
-
 
 .hero_container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    margin: 0px 100px;
+    margin: 0px 35px;
 }
 
 .hero_info {
@@ -51,21 +46,27 @@
     margin-top: 27px;
 }
 
-/* button contact */
-.hero_contact :nth-child(1){
+.contact_button {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: large;
     color: white;
-    background-color: #E34276;
+    background-color: #e24074;
     border-radius: 50px;
     padding: 12px 48px;
     border-style: none;
     cursor: pointer;
+    transition: 0.5s all;
 }
 
-/* button CV */
-.hero_contact :nth-child(2) {
+.contact_button:hover {
+    background-color: #FFF0FF ;
+    transition: 0.5s all;
+    color: #e24074;
+}
+
+
+.download_button {
     font-family: 'Noto Sans', sans-serif;
     font-size: large;
     color:white;

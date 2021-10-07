@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 35px 0px 35px;
-    height: 40px;
     background-color: transparent;
 
 }
@@ -16,30 +15,31 @@
     align-content: center;
 }
 
+.nav a {
+    text-decoration: none;
+}
+
+
 .nav_icons {
     font-size: 35px;
     width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.nav_icons svg {
     color: #E34276;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s all;
 }
 
-.nav_icons :nth-child(1):hover {
+.nav_icons svg:hover {
     color:white;
-    transition: 0.5s ease;
+    transition: 0.5s all;
 }
 
-.nav_icons :nth-child(2):hover {
-    color:white;
-    transition: 0.5s;
-}
-.nav_icons :nth-child(3):hover {
-    color:white;
-    transition: 0.5s;
-}
 
 .nav_links {
     display: flex;
@@ -51,7 +51,7 @@
     font-size: 18px;
     font-weight:bold;
     color: white;
-    margin-right: 20px;
+    margin-left: 20px;
     align-items: center;
     overflow: hidden;
   }
