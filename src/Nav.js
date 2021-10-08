@@ -45,7 +45,7 @@ const containerVariants = {
                 <ul>
                     <Link to="/"><li>HOME</li></Link>
                     <Link to="/projects"><li>PROJECTS</li></Link>
-                    <Link to="/contact"><li>CONTACT</li></Link>
+                    
                 </ul>
             </motion.div>
             <div className ="nav_logo">

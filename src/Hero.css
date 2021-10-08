@@ -76,4 +76,20 @@
     padding: 12px;
     border-bottom: #E34276 solid 6px;
     cursor: pointer;
+    transition: 0.5s all;
+}
+
+.download_button:hover {
+    border-bottom: hsl(341, 74%, 35%) solid 6px;
+    cursor: pointer;
+    transition: 0.5s all;
+    
+}
+
+.instructions {
+    position:absolute;
+    top: 350px;
+    right: 410px;
+    padding: 20px;
+    
 }

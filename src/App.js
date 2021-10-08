@@ -1,23 +1,25 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
+  useLocation
 } from "react-router-dom";
 import Hero from './Hero';
 import Nav from './Nav'
 import Contact from './Contact';
 import Projects from './Projects';
+import { AnimatePresence } from 'framer-motion'
 
 
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
-    <Router>
       <Nav />
-        <Switch>
-
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.key}>
           <Route path="/" exact>
               <Hero />
           </Route>
@@ -31,8 +33,7 @@ function App() {
           </Route>
 
         </Switch>
-    </Router>
-
+      </AnimatePresence>
    </div>
   );
 }

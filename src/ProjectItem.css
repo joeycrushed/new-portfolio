@@ -1,0 +1,12 @@
+.project_item {
+    margin: 30px;
+}
+
+.project_item h2 {
+    color: white;
+}
+
+.project_item a {
+    font-size: 14px;
+    font-weight: regular;
+}
