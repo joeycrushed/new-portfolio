@@ -116,3 +116,26 @@
             transform: scale(1);
   }
 
+  @media all and (max-width: 480px) {
+    .nav {
+      display: flex;
+      padding: 15px 0px 0px 35px;
+      
+     }
+
+    .nav_logo {
+      position: relative;
+      left: 40px;
+       }
+
+       .nav_logo svg {
+         height: 25px;
+       }
+
+    .nav_icons {
+          display: none;
+        }
+
+
+  }
+

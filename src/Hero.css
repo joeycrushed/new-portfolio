@@ -94,6 +94,19 @@
     
 }
 
+@media all and (max-width: 768px) {
+    .hero_container {
+        flex-wrap: wrap;
+    }
+
+    .hero_image img {
+        height: 400px;
+        border-radius: 400px;
+        position: relative;
+        top: 70px;
+    }
+}
+
 @media all and (max-width: 480px) {
     .hero_container {
         display: flex;
@@ -104,7 +117,7 @@
 
     .hero_image img {
         height: 250px;
-        margin-top: 80px;
+        margin-top: 70px;
         margin-bottom: 30px;;
         border-radius: 200px;
     }
@@ -121,6 +134,8 @@
         margin-top: 30px;
         margin-bottom: 40px;
         text-align: justify;
+        font-weight:normal;
+        color: white;
         
     }
 

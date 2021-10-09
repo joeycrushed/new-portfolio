@@ -61,3 +61,30 @@
     display: block;
     margin: 40px auto;
 }
+
+@media all and (max-width: 768px) {
+    .projects_container {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .project_item {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .img {
+        height: 265px;
+    }
+
+    .project_info {
+        width: 100%;
+        padding: 0px 40px
+    }
+
+    .pill_container p {
+        margin-bottom: 5px;
+    }
+
+
+}
