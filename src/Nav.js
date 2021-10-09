@@ -37,7 +37,7 @@ const containerVariants = {
   }
 
     return (
-        <div class="nav">
+        <div className="nav">
             <motion.div className="nav_links"
                 variants={containerVariants}
                 initial="hidden"

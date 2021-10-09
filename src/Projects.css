@@ -11,6 +11,7 @@
     width: 75%;
     padding: 20px;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 .project_item {
@@ -62,10 +63,11 @@
     margin: 40px auto;
 }
 
-@media all and (min-width: 569px) {
+@media only screen and (max-width: 1683px) {
     .projects_container {
         flex-direction: column;
         padding-top: 2rem;
+        margin-bottom: 2rem;;
     }
 
     .project_item {
@@ -74,7 +76,7 @@
     }
 
     .img {
-        height: 265px;
+        height: 465px;
     }
 
     .project_info {
