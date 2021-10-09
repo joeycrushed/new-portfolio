@@ -6,7 +6,7 @@ import nfl from './assets/nfl.gif'
 import pawpals from './assets/pawpalsgif.gif'
 import plantsapp from './assets/plantsapp.jpg'
 import pizzajoint from './assets/pizzajoint1.gif'
-import dojoblog from './assets/dojoblog.png'
+import dojoblog from './assets/dojoblog.gif'
 import { motion } from 'framer-motion'
 
 
