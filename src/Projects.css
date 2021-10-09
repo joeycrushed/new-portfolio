@@ -62,7 +62,7 @@
     margin: 40px auto;
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 569px) {
     .projects_container {
         flex-direction: column;
         padding-top: 2rem;
