@@ -40,6 +40,14 @@
     border-radius: 500px;
 }
 
+.hero_image:before {
+    content: "";
+    width: 100%;
+    height: 475px;
+    border-radius: 500px;
+    position: absolute;
+  }
+
 .hero_contact {
     display: flex;
     justify-content: space-around;
@@ -79,7 +87,7 @@
 }
 
 .download_button:hover {
-    border-bottom: hsl(341, 74%, 35%) solid 6px;
+    border-bottom: hsl(0, 0%, 100%) solid 6px;
     cursor: pointer;
     transition: 0.5s all;
     

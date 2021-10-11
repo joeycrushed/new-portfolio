@@ -3,9 +3,9 @@ import ProjectItem from './ProjectItem'
 import './Projects.css'
 import netflix from './assets/netflix.gif'
 import nfl from './assets/nfl.gif'
-import pawpals from './assets/pawpalsgif.gif'
-import plantsapp from './assets/plantsapp.jpg'
-import pizzajoint from './assets/pizzajoint1.gif'
+import pawpals from './assets/pawpals.gif'
+import plantsapp from './assets/plantsapp.gif'
+import pizzajoint from './assets/pizzajoint.gif'
 import dojoblog from './assets/dojoblog.gif'
 import { motion } from 'framer-motion'
 
@@ -54,7 +54,7 @@ function Projects() {
                         to extend this project by finding an API with more data, so I can implement more statistics and hopefully have live statistics whilst a game is on-going."
                         url="https://laughing-agnesi-ce957e.netlify.app/"
                         github="https://github.com/joeycrushed/nfl-stats-tracker"
-                        tech={["REACT.JS", "API", "DYNAMIC ROUTING", "REACT ROUTER", "JSX", "REACT HOOKS", "USESTATE", "USEFFECT", "USEHISTORY", "CSS", "HTML"]}
+                        tech={["REACT.JS", "API", "DYNAMIC ROUTING", "REACT ROUTER", "JSX", "REACT HOOKS", "USESTATE", "USEEFFECT", "USEHISTORY", "CSS", "HTML"]}
                     />
                       <ProjectItem 
                         title="PawPals" 
@@ -76,30 +76,30 @@ function Projects() {
                         tech={["REACT.JS", "STRIPE", "FIREBASE", "JSX", "CSS", "HTML"]}
                     />
                       <ProjectItem 
+                        title="Plants App" 
+                        image={plantsapp} 
+                        description="This web application is a market place where a user can upload their plant collection and rent them out for press events or for propagation. Tinder 
+                        for plants."
+                        url="https://plantsapp1.herokuapp.com/"
+                        github="https://github.com/joeycrushed/Plants-App"
+                        tech={["RUBY", "RUBY ON RAILS", "POSTGRESQL", "MAPBOX", "SCSS", "HTML", "DEVISE"]}
+                    />
+                      <ProjectItem 
                         title="Dojo Blog" 
                         image={dojoblog}
                         description="A blog built with React.js that allows a user to create, delete and view blog posts"
                         url="https://elated-minsky-5a0fcc.netlify.app/"
                         github="https://github.com/joeycrushed/pizzajoint-framer_motion"
-                        tech={["REACT.JS", "FRAMER MOTION", "REACT ROUTER", "USESTATE", "USEEFFECTS", "CSS", "HTML"]}
+                        tech={["REACT", "FRAMER MOTION", "REACT ROUTER", "USESTATE", "USEEFFECTS", "CSS", "HTML"]}
                     />
-                      <ProjectItem 
-                        title="Plants App" 
-                        image={plantsapp} 
-                        description="This web application is a market place where a user can upload their plant collection and rent them out for press events or for propagation. Tinder 
-                        for plants."
-                        url="https://plant-app-599.herokuapp.com/"
-                        github="https://github.com/joeycrushed/Plants-App"
-                        tech={["RUBY", "RUBY ON RAILS", "POSTGRESQL", "MAPBOX", "SCSS", "HTML"]}
-                    />
-                      
                        <ProjectItem 
                         title="Pizza Joint" 
                         image={pizzajoint}
-                        description="An application that creates a faux experience of ordering a pizza, where I learnt to use Framer Motion."
+                        description="An application that creates experience of ordering a pizza. I used this application to learn the
+                        framer motion, an animation library for React"
                         url="https://elated-minsky-5a0fcc.netlify.app/"
                         github="https://github.com/joeycrushed/pizzajoint-framer_motion"
-                        tech={["REACT.JS", "FRAMER MOTION", "REACT ROUTER", "USESTATE", "USEEFFECT"]}
+                        tech={["REACT", "FRAMER MOTION", "REACT ROUTER", "USESTATE", "USEEFFECT"]}
                     />
                 
             </motion.div>
