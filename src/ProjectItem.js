@@ -24,7 +24,7 @@ function ProjectItem(props) {
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 
-            <a href={props.url} rel="noreferrer" target="_blank">Check it out</a>
+            <a href={props.url} rel="noreferrer" target="_blank">Live Demo</a>
             <a href={props.github} rel="noreferrer" target="_blank">Github Repo</a>
             <div className="pill_container">
                 {props.tech.map((tech) => 
