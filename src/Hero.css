@@ -117,23 +117,45 @@
 
 }
 
+@media screen and (max-width: 411px){
+    .hero_container {
+        margin-top: 100px
+    }
+
+    .hero_image img {
+        height: 240px;
+    }
+
+    .hero_contact {
+        margin-top: 140px;
+    }
+    
+}
+
 @media screen and (max-width: 375px) {
 
     .hero_container {
-        margin-top: 100px;
+        margin-top: 87px;
     }
 
     .hero_image img {
         height: 269px;
     }
 
+    .hero_info h3 {
+        margin-bottom:36px;
+    }
+
     .hero_info p {
-        font-size: 12px;
+        font-size: 14px;
         margin: 0px;
+        text-align: justify;
     }
 
     .hero_contact {
-        margin: 0px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .contact_button {
