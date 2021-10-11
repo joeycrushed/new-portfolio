@@ -104,11 +104,10 @@ const childVariants = {
                 exit="exit"
             >
                 <motion.h3 variants={childVariants}>WEB DEVELOPER</motion.h3>
-                <motion.p variants={childVariants}>I’m Joe. I’m a web developer originally from Yorkshire. After moving to London, 
-                I starting working in retail and worked my up to management. After many years in the 
-                retail industry, I decided to have a career change and retrain in web development. I’ve 
-                always had a keen interest in tech and design so figured it’d be a perfect fit. 
-                So here I am!</motion.p>
+                <motion.p variants={childVariants}>Hi, I’m Joe. I'm a newly trained web developer after recently completing Full Stack 
+                Web Development at Le Wagon, London. Since graduating, I've been learning the React library and building new projects. I'm currently 
+                looking for my first junior role in tech. Check out my CV below!        
+                </motion.p>
                 <motion.div variants={childVariants} className="hero_contact">
                   
                     <button className="contact_button"
