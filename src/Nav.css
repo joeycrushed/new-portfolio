@@ -116,7 +116,10 @@
             transform: scale(1);
   }
 
-  @media screen and {max-width: 
+  @media screen and (max-width: 620px){
+      .nav_logo svg {
+        display: none;
+      } 
     
   }
 
@@ -127,19 +130,29 @@
       
      }
 
-    .nav_logo {
-      position: relative;
-      left: 40px;
-       }
-
-       .nav_logo svg {
-         height: 25px;
-       }
-
     .nav_icons {
-          display: none;
+          font-size: 30px;
         }
 
-
+    .nav_icons svg {
+      padding: 0px 16px;
+    }
   }
+
+  @media all and (max-width: 390px) {
+    .nav {
+      display: flex;
+      padding: 15px 0px 0px 35px;
+      
+     }
+
+    .nav_icons {
+          font-size: 20px;
+        }
+
+    .nav_icons svg {
+      padding: 0px 8px;
+    }
+  }
+
 
