@@ -93,3 +93,58 @@
     padding: 20px;
     
 }
+
+@media screen and (max-width: 1335px) {
+    .hero_image img {
+        height: 350px;
+        border-radius: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1010px) {
+    .hero_container {
+        display: flex;
+        flex-wrap: wrap;
+        height:fit-content;
+        justify-items: center;
+        margin-top: 135px;
+    }
+
+    .hero_image {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .hero_container {
+        margin-top: 100px;
+    }
+
+    .hero_image img {
+        height: 269px;
+    }
+
+    .hero_info p {
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .hero_contact {
+        margin: 0px;
+    }
+
+    .contact_button {
+        color: white;
+        background-color: #e24074;
+        border-radius: 50px;
+        padding: 6px 28px;
+        font-size: medium;
+    }
+
+    .download_button {
+        font-size: medium;
+    }
+}
