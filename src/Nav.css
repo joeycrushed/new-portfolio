@@ -139,7 +139,7 @@
     }
   }
 
-  @media all and (max-width: 390px) {
+  @media all and (max-width: 450px) {
     .nav {
       display: flex;
       padding: 15px 0px 0px 35px;
