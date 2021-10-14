@@ -50,8 +50,8 @@ function Projects() {
                       <ProjectItem
                         title="NFL Statistic Tracker" 
                         image={nfl} 
-                        description="This is an ongoing project that takes the data from an api and uses dynamic routing to create information based on each team. I'm hoping
-                        to extend this project by finding an API with more data, so I can implement more statistics and hopefully have live statistics whilst a game is on-going."
+                        description="This is an ongoing project that takes the data from an api and uses dynamic routing to create information based on each team. I'm currently
+                        building my own api by scraping data from sites, so I can implement more statistics and hopefully have live statistics whilst a game is on-going."
                         url="https://laughing-agnesi-ce957e.netlify.app/"
                         github="https://github.com/joeycrushed/nfl-stats-tracker"
                         tech={["REACT.JS", "API", "DYNAMIC ROUTING", "REACT ROUTER", "JSX", "REACT HOOKS", "USESTATE", "USEEFFECT", "USEHISTORY", "CSS", "HTML"]}

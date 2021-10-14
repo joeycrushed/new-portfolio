@@ -9,7 +9,7 @@ function Hero() {
 
     const [copySuccessMessage, setCopySuccessMessage] = useState('')
     const [instructions, setInstructions] = useState('')
-    const email = 'josephandrewsmith@gmail.com'
+    const email = 'josephandrewsmith87@gmail.com'
   
     useEffect(() => {
       const timer = setTimeout(() => {
